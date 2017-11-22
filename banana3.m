@@ -1,6 +1,6 @@
 % function generating toy dataset of 3 manifolds in the 2D space
 % X = banana3(n);
-% n: number of pointer per manifold
+% n: number of points per manifold
 % X: [3N x 2] matrix of data points
 %
 % Authors: A. Iscen, G. Tolias, Y. Avrithis, T. Furon, O. Chum. 2017. 
