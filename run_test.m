@@ -15,8 +15,8 @@ load_vectors;
 ndes = cell2mat(cellfun(@(x)size(x, 2), V, 'un', 0));  % number of vectors per image
 [imids, ~] = imgfeatids (ndes);                        % image and region ids here
 lvecs = cell2mat(V);                                   % set of all database vectors
-Nf = numel(imids);                                     % number of images
-N = max(imids);                                        % number of database vectors
+Nf = numel(imids);                                     % number of database vectors
+N = max(imids);                                        % number of images
 
 fprintf('**** %s - Diffuse %s **** \n',test_set,feature_type);
 
